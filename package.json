@@ -1,0 +1,43 @@
+{
+  "name": "elex",
+  "version": "0.0.1",
+  "description": "Perform check on list of gateway to find the best reliable http gateway",
+  "keywords": [
+    "speed",
+    "test",
+    "http",
+    "elect",
+    "elex"
+  ],
+  "main": "dist/elex.js",
+  "typings": "dist/index.d.ts",
+  "repository": "git@github.com:nampdn/elex.git",
+  "author": "Nam Pham <nampdn@protonmail.com>",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prebuild": "npx rimraf dist"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "3.0.1",
+    "@semantic-release/git": "7.0.5",
+    "@types/jest": "23.3.9",
+    "@types/node": "10.12.10",
+    "jest": "23.6.0",
+    "rimraf": "2.6.2",
+    "rollup": "0.67.3",
+    "rollup-plugin-commonjs": "9.2.0",
+    "rollup-plugin-node-resolve": "3.4.0",
+    "rollup-plugin-typescript2": "0.18.0",
+    "semantic-release": "15.12.1",
+    "ts-jest": "23.10.5",
+    "typescript": "3.1.6"
+  }
+}
