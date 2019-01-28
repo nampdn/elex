@@ -19,7 +19,7 @@
     "dist/*"
   ],
   "scripts": {
-    "build": "rollup -c",
+    "build": "tsc -p tsconfig.build.json",
     "dev": "rollup -c -w",
     "test": "jest",
     "test:watch": "jest --watch",
@@ -32,6 +32,7 @@
     "@types/jest": "23.3.9",
     "@types/node": "10.12.10",
     "@types/p-any": "1.1.2",
+    "@types/p-retry": "2.0.0",
     "@types/p-some": "2.0.1",
     "jest": "23.6.0",
     "rimraf": "2.6.2",
@@ -41,11 +42,12 @@
     "rollup-plugin-typescript2": "0.18.0",
     "semantic-release": "15.12.1",
     "ts-jest": "23.10.5",
-    "typescript": "3.1.6"
+    "typescript": "^3.2.4"
   },
   "dependencies": {
     "axios": "0.18.0",
     "p-any": "1.1.0",
+    "p-retry": "3.0.1",
     "p-some": "3.0.0"
   }
 }
