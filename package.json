@@ -30,7 +30,7 @@
     "@semantic-release/changelog": "3.0.1",
     "@semantic-release/git": "7.0.5",
     "@types/axios": "0.14.0",
-    "@types/jest": "23.3.9",
+    "@types/jest": "23.3.13",
     "@types/node": "10.12.10",
     "@types/p-any": "1.1.2",
     "@types/p-retry": "2.0.0",
