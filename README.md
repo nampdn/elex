@@ -1,5 +1,5 @@
 # elex 
-Perform check on list of gateway to find the best reliable http gateway
+Perform election speed check on list of gateways to find the fastest url
 
 [![npm version](https://badge.fury.io/js/elex.svg)](https://badge.fury.io/js/elex) [![Build Status](https://travis-ci.com/nampdn/elex.svg?branch=master)](https://travis-ci.com/nampdn/elex)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fnampdn%2Felex.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fnampdn%2Felex?ref=badge_shield)
