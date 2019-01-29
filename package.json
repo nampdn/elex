@@ -9,8 +9,8 @@
     "elect",
     "elex"
   ],
-  "main": "dist/elex.js",
-  "typings": "dist/index.d.ts",
+  "main": "build/index.js",
+  "typings": "build/index.d.ts",
   "repository": "git@github.com:nampdn/elex.git",
   "author": "Nam Pham <nampdn@protonmail.com>",
   "license": "MIT",
