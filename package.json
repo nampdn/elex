@@ -1,7 +1,7 @@
 {
   "name": "elex",
   "version": "1.0.1",
-  "description": "Perform check on list of gateway to find the best reliable http gateway",
+  "description": "Perform election speed check on list of gateways to find the fastest url",
   "keywords": [
     "speed",
     "test",
