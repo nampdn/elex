@@ -11,7 +11,7 @@ yarn add elex
 
 ## Usage
 
-### Elect some:
+### Elect some (some most fastest):
 
 ```javascript
 import {electSome} from 'elex'
@@ -22,14 +22,14 @@ import {electSome} from 'elex'
 })()
 ```
 
-### Elect one:
+### Elect any (the fastest one):
 
 ```javascript
-import {electOne} from 'elex'
+import {electAny} from 'elex'
 
 (async () => {
   const urlsToCheck = ['https://google.com', 'https://bing.com', 'https://vgm.tv', 'https://not-found-404.com']
-  const mostFastUrls = await electOne(urlsToCheck, {prefer: 'https://vgm.tv', retries: 1}); // 'https://vgm.tv'
+  const mostFastUrls = await electAny(urlsToCheck, {prefer: 'https://vgm.tv', retries: 1}); // 'https://vgm.tv'
 })()
 ```
 
