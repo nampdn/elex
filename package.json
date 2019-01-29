@@ -1,6 +1,6 @@
 {
   "name": "elex",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Perform check on list of gateway to find the best reliable http gateway",
   "keywords": [
     "speed",
