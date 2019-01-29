@@ -3,24 +3,23 @@ import pRetry from 'p-retry';
 
 export const fetch = async (
   url: string,
-  timeout: number = 7000,
-  retries: number = 1,
+  options?: any,
 ): Promise<AxiosResponse<any>> => {
   const toFetch = async (): Promise<AxiosResponse<any>> => {
-    const response = await axios.request({url, timeout});
+    const response = await axios.request({url, ...options});
     if (response.status === 404) {
       throw new pRetry.AbortError(response.statusText);
     }
     return response;
   };
   return pRetry(toFetch, {
-    retries,
+    retries: options.retries || 1,
     onFailedAttempt: (error: any) => {
-      console.log(
-        `[WARN] Fetch ${url} attempt ${error.attemptNumber} failed. There are ${
-          (error as any).retriesLeft
-        } attempts left.`,
+      console.info(
+        `Fetch ${url} ${error.attemptNumber}/${(error as any).retriesLeft} failed.`,
       );
     },
   });
 };
+
+export default fetch;
