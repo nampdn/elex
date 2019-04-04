@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "axios": "0.18.0",
-    "p-any": "1.1.0",
+    "p-any": "2.1.0",
     "p-retry": "3.0.1",
     "p-some": "3.0.0"
   }
