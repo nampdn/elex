@@ -31,7 +31,7 @@
     "@semantic-release/git": "9.0.0",
     "@types/axios": "0.14.0",
     "@types/jest": "26.0.24",
-    "@types/node": "14.17.6",
+    "@types/node": "14.17.7",
     "@types/p-any": "1.1.2",
     "@types/p-retry": "3.0.0",
     "@types/p-some": "2.0.1",
