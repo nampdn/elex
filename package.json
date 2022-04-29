@@ -35,7 +35,7 @@
     "@types/p-any": "1.1.2",
     "@types/p-retry": "3.0.0",
     "@types/p-some": "2.0.1",
-    "jest": "28.0.2",
+    "jest": "28.0.3",
     "rimraf": "3.0.2",
     "semantic-release": "19.0.2",
     "ts-jest": "27.1.4",
