@@ -1418,11 +1418,6 @@
     "@tufjs/canonical-json" "2.0.0"
     minimatch "^9.0.3"
 
-"@types/aggregate-error@*":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@types/aggregate-error/-/aggregate-error-1.0.0.tgz#7f811586f42802b1d84223536545263af931d89e"
-  integrity sha512-IcFSztsIxbL8XWGqsT6l4XbzvrOWS+b44MNtzAYTvxGPITTtioKNgUO3vKABLGcJciViaNOxBZl4MlpZEG1pJg==
-
 "@types/axios@0.14.0":
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/@types/axios/-/axios-0.14.0.tgz#ec2300fbe7d7dddd7eb9d3abf87999964cafce46"
@@ -1533,12 +1528,12 @@
   dependencies:
     p-retry "*"
 
-"@types/p-some@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@types/p-some/-/p-some-2.0.1.tgz#35de05699ad1d972fe1de7167d821e2fc15e5858"
-  integrity sha512-9adek4FyLgEjSleareMMKUN+g8sECq9xJKNFQcEB8FbpFbKdY2RabjsqbGhh2n50Fu1mb66DbCTIA4fGKII2Mg==
+"@types/p-some@4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@types/p-some/-/p-some-4.0.2.tgz#648c365bb38510f4800e46979d7f45743b9e5a74"
+  integrity sha512-TCydvfhrVr0IBB3KPpfyQJCKLhnehiuOgsiDup0DKQtgBflF/Kaxjge3lhJZ++z24b5fgnaAWOSG/wJMYDyiHQ==
   dependencies:
-    "@types/aggregate-error" "*"
+    p-some "*"
 
 "@types/retry@0.12.2":
   version "0.12.2"
@@ -5028,7 +5023,7 @@ p-retry@*, p-retry@6.2.0:
     is-network-error "^1.0.0"
     retry "^0.13.1"
 
-p-some@6.0.0, p-some@^6.0.0:
+p-some@*, p-some@6.0.0, p-some@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/p-some/-/p-some-6.0.0.tgz#4613a822038abe125e42152ea9f7705a7967526f"
   integrity sha512-CJbQCKdfSX3fIh8/QKgS+9rjm7OBNUTmwWswAFQAhc8j1NR1dsEDETUEuVUtQHZpV+J03LqWBEwvu0g1Yn+TYg==
