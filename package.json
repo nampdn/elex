@@ -42,7 +42,7 @@
     "typescript": "5.4.5"
   },
   "dependencies": {
-    "axios": "1.6.8",
+    "axios": "1.7.0",
     "p-any": "4.0.0",
     "p-retry": "6.2.0",
     "p-some": "6.0.0"
