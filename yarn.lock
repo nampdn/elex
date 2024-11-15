@@ -5075,10 +5075,19 @@ p-reduce@^3.0.0:
   resolved "https://registry.yarnpkg.com/p-reduce/-/p-reduce-3.0.0.tgz#f11773794792974bd1f7a14c72934248abff4160"
   integrity sha512-xsrIUgI0Kn6iyDYm9StOpOeK29XM1aboGji26+QEortiFST1hGZaUQOLhtEbqHErPpGW/aSz6allwK2qcptp0Q==
 
-p-retry@*, p-retry@6.2.0:
+p-retry@*:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/p-retry/-/p-retry-6.2.0.tgz#8d6df01af298750009691ce2f9b3ad2d5968f3bd"
   integrity sha512-JA6nkq6hKyWLLasXQXUrO4z8BUZGUt/LjlJxx8Gb2+2ntodU/SS63YZ8b0LUTbQ8ZB9iwOfhEPhg4ykKnn2KsA==
+  dependencies:
+    "@types/retry" "0.12.2"
+    is-network-error "^1.0.0"
+    retry "^0.13.1"
+
+p-retry@6.2.1:
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/p-retry/-/p-retry-6.2.1.tgz#81828f8dc61c6ef5a800585491572cc9892703af"
+  integrity sha512-hEt02O4hUct5wtwg4H4KcWgDdm+l1bOaEy/hWzd8xtXB9BqxTWBBhb+2ImAtH4Cv4rPjV76xN3Zumqk3k3AhhQ==
   dependencies:
     "@types/retry" "0.12.2"
     is-network-error "^1.0.0"
